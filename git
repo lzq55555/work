@@ -21,3 +21,13 @@ git checkout master
 git merge new_stuff
 
 git push master
+
+git init
+git remote add origin git@github.com:lzq55555/work.git
+git pull origin master
+git add .
+git branch master
+git checkout master
+git push origin master
+git commit -a -m "message"
+git push origin master

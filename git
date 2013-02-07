@@ -1,0 +1,23 @@
+创建新分支并命名，此处我们创建名为 new_stuff 的分支 
+
+git branch new_stuff
+移到新分支上
+
+git checkout new_stuff
+开始你的工作并保存结果
+各种工具.....
+
+添加所改动的文件以便提交
+
+git add .
+提交改动
+
+git commit -m "made some changes"
+回到 master 主分支
+
+git checkout master
+合并到主分支
+
+git merge new_stuff
+
+git push master
